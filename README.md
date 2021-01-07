@@ -5,6 +5,8 @@ This is a list of changes to NotoSans 2.004 and NotoSansCoptic 2.000
 
 Changed name of NotoSans to CoptoSans to comply with SIL-OFL license
 
+***THIS IS NOT READY FOR DISTRIBUTION AT THIS TIME***
+
 ***CHANGES TO NOTO 2.004***
 Changed uni033F to point to uni0305 instead of uni0333 for consistant lengths. Old glyph in private use uniE305.
 Changed thickness of uni035E to match other macron characters in font. Old glyph in private use uniE35E.
@@ -33,4 +35,6 @@ redraw Khei 03E6 03E7 to work with horizontally aligned dotbelowcomb
 Lengthen stem on dei uni03EF
 Re-kern all Coptic. most can be added to existing tables.
 Change XID
+Work on lengths and alternates for overline and doubleoverline. 
+Check joining macrons on wider characters
 
