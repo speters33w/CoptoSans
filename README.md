@@ -5,7 +5,7 @@ A repository of modifications to Noto Sans Coptic
 
 Changed name of NotoSans to CoptoSans to comply with SIL-OFL license
 
-Merged uni03E2 through uni03FF, uni2C80 through unni2CFF and uniFE2x to Noto Sans 2.004
+Merged uni03E2 through uni03FF, uni2C80 through uni2CFF and uniFE2x to Noto Sans 2.004
 
 Changed anchor points to be consistant with Noto Sans Regular
 · Changed or merged the following anchors:
