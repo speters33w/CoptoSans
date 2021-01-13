@@ -5,19 +5,7 @@ A repository of modifications to Noto Sans Coptic
 
 Changed name of NotoSans to CoptoSans to comply with SIL-OFL license
 
-***CHANGES TO NOTO 2.004***
-
-Changed uni033F to point to uni0305 instead of uni0333 for consistant lengths. Old glyph in private use uniE305.
-
-Changed thickness of uni035E to match other macron characters in font. Old glyph in private use uniE35E.
-
-Changed length of uniFE24 and uniFE25 combiningmacronbothhalves 
-
-Changed width of macron above imacron
-
-***END CHANGES THAT EFFECT BASE FONT***
-
-Merged uni03E2 through uni03FF and uni2C80 through unni2CFF to Noto Sans 2.004 private use uniE3E2 through uniE3FF and EC80 through ECFF and copied to uni03E2 through uni03FF and uni2C80 through unni2CFF
+Merged uni03E2 through uni03FF, uni2C80 through unni2CFF and uniFE2x to Noto Sans 2.004
 
 Changed anchor points to be consistant with Noto Sans Regular
 · Changed or merged the following anchors:
@@ -26,19 +14,10 @@ Changed anchor points to be consistant with Noto Sans Regular
 · · Anchor-6 to Anchor-0
 · · Anchor-0 to Anchor-1
 · · Merged Anchor-3 and Anchor-4 with Anchor-2
-· · Anchor 5 to Anchor-overline.coptic for use with uni0305 and uni033F
+· · Anchor 5 to Anchor-overline.coptic for use with uni0305 and uni033F (not implimented yet)
 
 Added copt <dflt> language to most non-locl lookups
 Corrected some anchors and widths, in some cases re-drew or drew from existing glyphs in NotoSans through 2CA7
 
-
-
-Need to do:
-Get FE24-FE26 working right and consistant with macron. Error may be fixed in NotoSansCaucasianAlbanian-Regular.ttf see NotoSans issue 1394
-finish reworking all glyphs 2C82 through 2CFF
-create mkmk table for Anchor-overline uni0305 uni033F in coptic
-scaley and check anchors on redrawn Khei 03E6 03E7 to work with horizontally aligned dotbelowcomb
-Top of dei 03EF should be higher
-Re-kern all Coptic. most can be added to existing tables.
-Change XID
-Top of Laula needs to be higher.
+See fontlog for detailed changes.
+https://github.com/speters33w/CoptoSans/blob/main/fontlog.pdf
