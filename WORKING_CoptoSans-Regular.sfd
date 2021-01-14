@@ -22,7 +22,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 1
 OS2_UseTypoMetrics: 0
 CreationTime: 1608523711
-ModificationTime: 1610572924
+ModificationTime: 1610584391
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -416,12 +416,13 @@ ShortTable: maxp 16
 EndShort
 LangName: 1033 "" "" "" "2.004;GOOG;CoptoSans-Regular" "" "Version 2.004" "" "Noto is a trademark of Google LLC." "Monotype Imaging Inc." "Monotype Design Team" "Designed by Monotype design team." "http://www.google.com/get/noto/" "http://www.monotype.com/studio" "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an +ACIA-AS IS+ACIA BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." "http://scripts.sil.org/OFL"
 Encoding: UnicodeBmp
+Compacted: 1
 UnicodeInterp: none
 NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 11325 25 10
+WinInfo: 2350 25 10
 BeginPrivate: 0
 EndPrivate
 AnchorClass2: "Anchor-0" "'mark' Mark Positioning lookup 3 subtable" "Anchor-1" "'mark' Mark Positioning lookup 3 subtable" "Anchor-2" "'mark' Mark Positioning lookup 3 subtable" "Anchor-3" "'mark' Mark Positioning lookup 3 subtable" "Anchor-4" "'mark' Mark Positioning lookup 4 subtable" "Anchor-5" "'mark' Mark Positioning lookup 4 subtable" "Anchor-6" "'mark' Mark Positioning lookup 4 subtable" "Anchor-7" "'mkmk' Mark to Mark lookup 5 subtable" "Anchor-8" "'mkmk' Mark to Mark lookup 6 subtable" "Anchor-9" "'mkmk' Mark to Mark lookup 7 subtable" "Anchor-10" "'mkmk' Mark to Mark lookup 8 subtable" "Anchor-overline.coptic" "CoptoSans-Regular-'mark' Mark Positioning in Coptic lookup 5 subtable"
@@ -95735,7 +95736,7 @@ EndChar
 StartChar: uni2C9B
 Encoding: 11419 11419 3482
 Width: 643
-Flags: WO
+Flags: W
 AnchorPoint: "Anchor-overline.coptic" 322 714 basechar 0
 AnchorPoint: "Anchor-1" 322 536 basechar 0
 AnchorPoint: "Anchor-0" 322 0 basechar 0
@@ -95941,13 +95942,13 @@ StartChar: uni2CA9
 Encoding: 11433 11433 3491
 Width: 592
 Flags: W
-AnchorPoint: "Anchor-0" 296 -195 basechar 0
+AnchorPoint: "Anchor-0" 296 -190 basechar 0
 AnchorPoint: "Anchor-overline.coptic" 296 714 basechar 0
 AnchorPoint: "Anchor-1" 296 536 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-252 -195 m 1,0,-1
+252 -190 m 5,0,-1
  252 134 l 1,1,-1
  0 536 l 1,2,-1
  106 536 l 1,3,-1
@@ -95955,8 +95956,8 @@ SplineSet
  486 536 l 1,5,-1
  592 536 l 1,6,-1
  340 134 l 1,7,-1
- 340 -195 l 1,8,-1
- 252 -195 l 1,0,-1
+ 340 -190 l 5,8,-1
+ 252 -190 l 5,0,-1
 EndSplineSet
 EndChar
 
@@ -96017,7 +96018,7 @@ Encoding: 11438 11438 3496
 Width: 858
 Flags: W
 AnchorPoint: "Anchor-overline.coptic" 427 714 basechar 0
-AnchorPoint: "Anchor-1" 427 714 basechar 0
+AnchorPoint: "Anchor-1" 429 800 basechar 0
 AnchorPoint: "Anchor-0" 429 0 basechar 0
 LayerCount: 2
 Fore
@@ -96033,8 +96034,8 @@ SplineSet
  150 485 150 485 180 427 c 128,-1,10
  210 369 210 369 263 338 c 128,-1,11
  316 307 316 307 384 304 c 1,12,-1
- 384 760 l 5,13,-1
- 472 760 l 5,14,-1
+ 384 800 l 1,13,-1
+ 472 800 l 1,14,-1
  472 304 l 1,15,16
  581 313 581 313 643.5 380 c 128,-1,17
  706 447 706 447 706 568 c 2,18,-1
@@ -96048,6 +96049,7 @@ SplineSet
  472 0 l 1,27,-1
  384 0 l 1,0,-1
 EndSplineSet
+AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" uni2CAE.salt
 EndChar
 
 StartChar: uni2CAF
@@ -96060,7 +96062,7 @@ AnchorPoint: "Anchor-0" 367 -195 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-323 -195 m 5,0,-1
+323 -195 m 1,0,-1
  323 109 l 1,1,2
  228 115 228 115 169 156.5 c 128,-1,3
  110 198 110 198 83 263.5 c 128,-1,4
@@ -96070,8 +96072,8 @@ SplineSet
  143 415 l 2,8,9
  143 307 143 307 187.5 248.5 c 128,-1,10
  232 190 232 190 323 187 c 1,11,-1
- 323 611 l 1,12,-1
- 408 611 l 1,13,-1
+ 323 665 l 5,12,-1
+ 408 665 l 5,13,-1
  408 187 l 1,14,15
  504 195 504 195 547 252.5 c 128,-1,16
  590 310 590 310 590 413 c 2,17,-1
@@ -96082,58 +96084,59 @@ SplineSet
  649 252 649 252 617 210 c 128,-1,23
  585 168 585 168 533.5 141 c 128,-1,24
  482 114 482 114 408 109 c 1,25,-1
- 408 -195 l 5,26,-1
- 323 -195 l 5,0,-1
+ 408 -195 l 1,26,-1
+ 323 -195 l 1,0,-1
 EndSplineSet
+AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" uni2CAF.salt
 EndChar
 
 StartChar: uni2CB0
 Encoding: 11440 11440 3498
-Width: 1032
+Width: 1000
 Flags: W
-AnchorPoint: "Anchor-overline.coptic" 516 714 basechar 0
-AnchorPoint: "Anchor-1" 516 714 basechar 0
-AnchorPoint: "Anchor-0" 516 0 basechar 0
+AnchorPoint: "Anchor-overline.coptic" 501 714 basechar 0
+AnchorPoint: "Anchor-1" 501 714 basechar 0
+AnchorPoint: "Anchor-0" 501 0 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-326 -10 m 0,0,1
- 249 -10 249 -10 189 31 c 128,-1,2
- 129 72 129 72 95 150.5 c 128,-1,3
- 61 229 61 229 61 341 c 0,4,5
- 61 475 61 475 112.5 572 c 128,-1,6
- 164 669 164 669 271 729 c 1,7,-1
- 322 669 l 1,8,9
- 234 617 234 617 194.5 537 c 128,-1,10
- 155 457 155 457 155 341 c 0,11,12
- 155 254 155 254 178 194 c 128,-1,13
- 201 134 201 134 240.5 103 c 128,-1,14
- 280 72 280 72 329 72 c 0,15,16
- 373 72 373 72 404.5 93.5 c 128,-1,17
- 436 115 436 115 453 169 c 128,-1,18
- 470 223 470 223 470 319 c 2,19,-1
- 470 694 l 1,20,-1
- 560 694 l 1,21,-1
- 560 319 l 2,22,23
- 560 187 560 187 594.5 129.5 c 128,-1,24
- 629 72 629 72 702 72 c 0,25,26
- 747 72 747 72 786.5 101.5 c 128,-1,27
- 826 131 826 131 851 190.5 c 128,-1,28
- 876 250 876 250 876 341 c 0,29,30
- 876 451 876 451 834.5 537.5 c 128,-1,31
- 793 624 793 624 705 674 c 1,32,-1
- 771 731 l 1,33,34
- 842 689 842 689 886 628.5 c 128,-1,35
- 930 568 930 568 950.5 496.5 c 128,-1,36
- 971 425 971 425 971 347 c 0,37,38
- 971 234 971 234 937 154 c 128,-1,39
- 903 74 903 74 842.5 32 c 128,-1,40
- 782 -10 782 -10 703 -10 c 0,41,42
- 639 -10 639 -10 587.5 27 c 128,-1,43
- 536 64 536 64 516 141 c 1,44,-1
- 513 141 l 1,45,46
- 488 63 488 63 439.5 26.5 c 128,-1,47
- 391 -10 391 -10 326 -10 c 0,0,1
+316 -10 m 0,0,1
+ 241 -10 241 -10 183 31 c 128,-1,2
+ 125 72 125 72 92 150.5 c 128,-1,3
+ 59 229 59 229 59 341 c 0,4,5
+ 59 475 59 475 109 572 c 128,-1,6
+ 159 669 159 669 263 729 c 1,7,-1
+ 312 669 l 1,8,9
+ 227 617 227 617 188.5 537 c 128,-1,10
+ 150 457 150 457 150 341 c 0,11,12
+ 150 254 150 254 172.5 194 c 128,-1,13
+ 195 134 195 134 233.5 103 c 128,-1,14
+ 272 72 272 72 319 72 c 0,15,16
+ 362 72 362 72 392.5 93.5 c 128,-1,17
+ 423 115 423 115 439.5 169 c 128,-1,18
+ 456 223 456 223 456 319 c 2,19,-1
+ 456 694 l 1,20,-1
+ 543 694 l 1,21,-1
+ 543 319 l 2,22,23
+ 543 187 543 187 576.5 129.5 c 128,-1,24
+ 610 72 610 72 681 72 c 0,25,26
+ 725 72 725 72 763 101.5 c 128,-1,27
+ 801 131 801 131 825.5 190.5 c 128,-1,28
+ 850 250 850 250 850 341 c 0,29,30
+ 850 451 850 451 809.5 537.5 c 128,-1,31
+ 769 624 769 624 684 674 c 1,32,-1
+ 748 731 l 1,33,34
+ 817 689 817 689 859.5 628.5 c 128,-1,35
+ 902 568 902 568 922 496.5 c 128,-1,36
+ 942 425 942 425 942 347 c 0,37,38
+ 942 234 942 234 909 154 c 128,-1,39
+ 876 74 876 74 817.5 32 c 128,-1,40
+ 759 -10 759 -10 682 -10 c 0,41,42
+ 620 -10 620 -10 570 27 c 128,-1,43
+ 520 64 520 64 501 141 c 1,44,-1
+ 498 141 l 1,45,46
+ 474 63 474 63 426.5 26.5 c 128,-1,47
+ 379 -10 379 -10 316 -10 c 0,0,1
 EndSplineSet
 EndChar
 
@@ -98947,30 +98950,30 @@ Encoding: 11427 11427 3580
 Width: 544
 Flags: W
 AnchorPoint: "Anchor-overline.coptic" 272 714 basechar 0
-AnchorPoint: "Anchor-1" 272 536 basechar 0
+AnchorPoint: "Anchor-1" 272 536.35 basechar 0
 AnchorPoint: "Anchor-0" 272 0 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-85 -195 m 5,0,-1
- 85 536 l 5,1,-1
- 267 536 l 6,2,3
- 346 536 346 536 395 508.5 c 132,-1,4
- 444 481 444 481 466.5 435.5 c 132,-1,5
- 489 390 489 390 489 335 c 4,6,7
- 489 242 489 242 429.5 182.5 c 132,-1,8
- 370 123 370 123 251 123 c 6,9,-1
- 174 123 l 5,10,-1
- 174 -195 l 5,11,-1
- 85 -195 l 5,0,-1
-174 194 m 5,12,-1
- 246 194 l 6,13,14
- 320 194 320 194 359 229 c 132,-1,15
- 398 264 398 264 398 332 c 4,16,17
- 398 392 398 392 363 428.5 c 132,-1,18
- 328 465 328 465 254 465 c 6,19,-1
- 174 465 l 5,20,-1
- 174 194 l 5,12,-1
+85 -190 m 1,0,-1
+ 85 536 l 1,1,-1
+ 267 536 l 2,2,3
+ 346 536 346 536 393.5 510.5 c 128,-1,4
+ 441 485 441 485 461 444 c 0,5,6
+ 484 397 484 397 484 355 c 0,7,8
+ 484 278 484 278 425 222 c 0,9,10
+ 365 166 365 166 251 165 c 2,11,-1
+ 174 165 l 1,12,-1
+ 174 -190 l 1,13,-1
+ 85 -190 l 1,0,-1
+174 254 m 1,14,-1
+ 246 254 l 2,15,16
+ 320 254 320 254 359 285.5 c 128,-1,17
+ 398 317 398 317 398 351.5 c 128,-1,18
+ 398 386 398 386 363 418.5 c 128,-1,19
+ 328 451 328 451 254 451 c 2,20,-1
+ 174 451 l 1,21,-1
+ 174 254 l 1,14,-1
 EndSplineSet
 EndChar
 
@@ -99398,6 +99401,8 @@ StartChar: uni03E80323
 Encoding: 66013 -1 3597
 Width: 549
 Flags: W
+AnchorPoint: "Anchor-overline.coptic" 275 714 basechar 0
+AnchorPoint: "Anchor-1" 275 714 basechar 0
 LayerCount: 2
 Fore
 Refer: 3026 803 N 1 0 0 1 573 0 2
@@ -99411,9 +99416,11 @@ StartChar: uni03E90323
 Encoding: 66014 -1 3598
 Width: 479
 Flags: W
+AnchorPoint: "Anchor-overline.coptic" 240 714 basechar 0
+AnchorPoint: "Anchor-1" 240 536 basechar 0
 LayerCount: 2
 Fore
-Refer: 3026 803 S 1 0 0 1 538 0 2
+Refer: 3026 803 N 1 0 0 1 538 0 2
 Refer: 889 424 N 1 0 0 1 0 0 3
 Ligature2: "'liga' Standard Ligatures lookup 38 subtable" uni03E9 dotbelowcomb
 LCarets2: 1 0
@@ -99425,7 +99432,7 @@ Encoding: 66015 -1 3599
 Width: 493
 Flags: W
 AnchorPoint: "Anchor-1" 287 536 basechar 0
-AnchorPoint: "Anchor-overline.coptic" 222 714 basechar 0
+AnchorPoint: "Anchor-overline.coptic" 247 714 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -99454,7 +99461,7 @@ SplineSet
  370 546 370 546 438 517 c 1,42,-1
  410 444 l 1,0,1
 EndSplineSet
-Refer: 3026 803 S 1 0 0 1 570 0 2
+Refer: 3026 803 N 1 0 0 1 570 0 2
 Ligature2: "'liga' Standard Ligatures lookup 38 subtable" uni2C8B dotbelowcomb
 LCarets2: 1 0
 EndChar
@@ -99493,31 +99500,93 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: NameMe.66017
+StartChar: uni2CA90324
 Encoding: 66017 -1 3601
-Width: 268
-Flags: W
+Width: 474
+AnchorPoint: "Anchor-overline.coptic" 237 714 basechar 0
+AnchorPoint: "Anchor-1" 237 536 basechar 0
 LayerCount: 2
 Fore
-Refer: 17 46 N 1 0 0 1 0 299 3
+Refer: 3026 803 N 1 0 0 1 535 0 2
+Refer: 1102 655 N 1 0 0 1 0 0 3
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures lookup 38 subtable" uni2CA9 uni0324
+Decomposition: "+Ao8DIwAA"
 EndChar
 
-StartChar: NameMe.66018
+StartChar: uni2CAE.salt
 Encoding: 66018 -1 3602
-Width: 268
+Width: 858
 Flags: W
+AnchorPoint: "Anchor-overline.coptic" 427 714 basechar 0
+AnchorPoint: "Anchor-1" 427 714 basechar 0
+AnchorPoint: "Anchor-0" 429 0 basechar 0
 LayerCount: 2
 Fore
-Refer: 17 46 N 1 0 0 1 0 299 3
+SplineSet
+384 0 m 1,0,-1
+ 384 227 l 1,1,2
+ 276 233 276 233 204 278 c 128,-1,3
+ 132 323 132 323 96 396.5 c 128,-1,4
+ 60 470 60 470 60 560 c 2,5,-1
+ 60 714 l 1,6,-1
+ 150 714 l 1,7,-1
+ 150 570 l 2,8,9
+ 150 485 150 485 180 427 c 128,-1,10
+ 210 369 210 369 263 338 c 128,-1,11
+ 316 307 316 307 384 304 c 1,12,-1
+ 384 716 l 5,13,-1
+ 472 716 l 5,14,-1
+ 472 304 l 1,15,16
+ 581 313 581 313 643.5 380 c 128,-1,17
+ 706 447 706 447 706 568 c 2,18,-1
+ 706 714 l 1,19,-1
+ 798 714 l 1,20,-1
+ 798 559 l 2,21,22
+ 798 499 798 499 778 441.5 c 128,-1,23
+ 758 384 758 384 718 337.5 c 128,-1,24
+ 678 291 678 291 616.5 261.5 c 128,-1,25
+ 555 232 555 232 472 227 c 1,26,-1
+ 472 0 l 1,27,-1
+ 384 0 l 1,0,-1
+EndSplineSet
 EndChar
 
-StartChar: NameMe.66019
+StartChar: uni2CAF.salt
 Encoding: 66019 -1 3603
-Width: 268
+Width: 734
 Flags: W
+AnchorPoint: "Anchor-overline.coptic" 367 714 basechar 0
+AnchorPoint: "Anchor-1" 367 536 basechar 0
+AnchorPoint: "Anchor-0" 367 -195 basechar 0
 LayerCount: 2
 Fore
-Refer: 17 46 N 1 0 0 1 0 299 3
+SplineSet
+323 -195 m 1,0,-1
+ 323 109 l 1,1,2
+ 228 115 228 115 169 156.5 c 128,-1,3
+ 110 198 110 198 83 263.5 c 128,-1,4
+ 56 329 56 329 56 406 c 2,5,-1
+ 56 536 l 1,6,-1
+ 143 536 l 1,7,-1
+ 143 415 l 2,8,9
+ 143 307 143 307 187.5 248.5 c 128,-1,10
+ 232 190 232 190 323 187 c 1,11,-1
+ 323 536 l 5,12,-1
+ 408 536 l 5,13,-1
+ 408 187 l 1,14,15
+ 504 195 504 195 547 252.5 c 128,-1,16
+ 590 310 590 310 590 413 c 2,17,-1
+ 590 536 l 1,18,-1
+ 678 536 l 1,19,-1
+ 678 405 l 2,20,21
+ 678 354 678 354 663.5 303 c 128,-1,22
+ 649 252 649 252 617 210 c 128,-1,23
+ 585 168 585 168 533.5 141 c 128,-1,24
+ 482 114 482 114 408 109 c 1,25,-1
+ 408 -195 l 1,26,-1
+ 323 -195 l 1,0,-1
+EndSplineSet
 EndChar
 
 StartChar: NameMe.66020
