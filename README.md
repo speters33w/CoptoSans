@@ -20,4 +20,4 @@ Added copt <dflt> language to most non-locl lookups
 Corrected some anchors and widths, in some cases re-drew or drew from existing glyphs in NotoSans through 2CA7
 
 See fontlog for detailed changes.
-https://github.com/speters33w/CoptoSans/blob/main/fontlog.pdf
+https://github.com/speters33w/CoptoSans/blob/main/Copto_Sans_fontlog.pdf
